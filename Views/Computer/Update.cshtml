@@ -1,0 +1,27 @@
+@model MvcLabManager.Models.Computer
+
+@{
+    ViewData["Title"] = "Editar Computador";
+}
+
+<div>
+    <h1>Editar Computador</h1>
+</div>
+
+<div>
+    <form action="Edit" method="POST">
+
+        <div>
+            <label for="ram">Ram</label>
+            <input type="text" name="ram" id="ram">
+        </div> 
+
+        <div>
+            <label for="processor">Processador</label>
+            <input type="text" name="processor" id="processor">
+        </div> 
+        
+        <button type="submit" class="btn btn-primary">Editar</button>
+    </form>
+</div>
+    
